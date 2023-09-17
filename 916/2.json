@@ -1,0 +1,64 @@
+[
+    {
+        "Answer": 51.0,
+        "Body": "Each pack of dvds costs number0 dollars. If there is a discount of number1 dollars on each pack How much do you have to pay to buy each pack?",
+        "Equation": "( 76.0 - 25.0 )",
+        "ID": "chal-1",
+        "Linear_Formula": "#0: subtract ( number0, number1 ) |  EOS",
+        "Numbers": [
+            76.0,
+            25.0
+        ],
+        "Question": "How much do you have to pay to buy each pack?",
+        "Type": "Subtraction",
+        "Body_Instance": "Each pack of dvds costs number0 dollars. If there is a discount of number1 dollars on each pack How much do you have to pay to buy each pack?",
+        "Linear_Instance": "#0: subtract ( number0, number1 ) |  EOS"
+    },
+    {
+        "Answer": 1.0,
+        "Body": "Dan had $ number0 left with him after he bought a candy bar. If he had $ number1 at the start How much did the candy bar cost?",
+        "Equation": "( 4.0 - 3.0 )",
+        "ID": "chal-2",
+        "Linear_Formula": "#0: subtract ( number1, number0 ) |  EOS",
+        "Numbers": [
+            4.0,
+            3.0
+        ],
+        "Question": "How much did the candy bar cost?",
+        "Type": "Subtraction",
+        "Body_Instance": "Dan had $ number0 left with him after he bought a candy bar. If he had $ number1 at the start How much did the candy bar cost?",
+        "Linear_Instance": "#0: subtract ( number1, number0 ) |  EOS"
+    },
+    {
+        "Answer": 17.0,
+        "Body": "Paco had number0 salty cookies and number1 sweet cookies. He ate number2 sweet cookies and number3 salty cookies. How many salty cookies did Paco have left?",
+        "Equation": "( 26.0 - 9.0 )",
+        "ID": "chal-3",
+        "Linear_Formula": "#0: subtract ( number0, number3 ) |  EOS",
+        "Numbers": [
+            26.0,
+            11.0,
+            28.0,
+            9.0
+        ],
+        "Question": "How many salty cookies did Paco have left?",
+        "Type": "Subtraction",
+        "Body_Instance": "Paco had number0 salty cookies and number1 sweet cookies. He ate number2 sweet cookies and number3 salty cookies. How many salty cookies did Paco have left?",
+        "Linear_Instance": "#0: subtract ( number0, number3 ) |  EOS"
+    },
+    {
+        "Answer": 22.0,
+        "Body": "number0 children were riding on the bus. At the bus stop some children got off the bus. Then there were number1 children left on the bus. How many children got off the bus at the bus stop?",
+        "Equation": "( 43.0 - 21.0 )",
+        "ID": "chal-4",
+        "Linear_Formula": "#0: subtract ( number0, number1 ) |  EOS",
+        "Numbers": [
+            43.0,
+            21.0
+        ],
+        "Question": "How many children got off the bus at the bus stop?",
+        "Type": "Subtraction",
+        "Body_Instance": "number0 children were riding on the bus. At the bus stop some children got off the bus. Then there were number1 children left on the bus. How many children got off the bus at the bus stop?",
+        "Linear_Instance": "#0: subtract ( number0, number1 ) |  EOS"
+    }
+]

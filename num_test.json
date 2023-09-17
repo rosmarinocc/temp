@@ -1,0 +1,68 @@
+{
+  "8": [
+    {
+      "id": "8",
+      "question": "A study reported that in a random sampling of 100.0 women over the age of 35.0 , 8.0 of the women were married 2.0 or more times . Based on the study results , how many woman in a group of 5000.0 women over the age of 35.0 would likely be married 2.0 or more times ?",
+      "formula": "#0: divide ( number2, number0 ) | #1: multiply ( #0, number4 ) |  EOS",
+      "instance": "100.0 35.0 8.0 2.0 5000.0 35.0 2.0",
+      "answer_value": "400.0",
+      "wrong_formula": "#0: divide ( number2, number0 ) | #1: substract ( #0, number4 ) |  EOS",
+      "hint": "The operator substract in #1 is incorrect.",
+      "wrong_instance": "step1: divide ( 8.0, 100.0 ) | step2: substract ( step1, 5000.0 )",
+      "gpt_wrong": "{\n  \"analysis\": \"Step 1: Divide the number of women who were married 3 or more times (8.0) by the total number of women in the random sampling (100.0). This will give us the proportion of women who were married 3 or more times in the sample. 8.0 / 100.0 = 0.08\\nStep 2: Subtract the proportion obtained in step 1 from the total number of women in the group (number4). This will give us an estimate of how many women in the group would likely be married 3 or more times. number4 - 0.08 = number6\\nSo, the final answer is number6.\"\n}"
+    },
+    {
+      "id": "8",
+      "question": "A study reported that in a random sampling of 100.0 women over the age of 35.0 , 8.0 of the women were married 2.0 or more times . Based on the study results , how many woman in a group of 5000.0 women over the age of 35.0 would likely be married 2.0 or more times ?",
+      "formula": "#0: divide ( number2, number0 ) | #1: multiply ( #0, number4 ) |  EOS",
+      "instance": "100.0 35.0 8.0 2.0 5000.0 35.0 2.0",
+      "answer_value": "400.0",
+      "wrong_formula": "#0: substract ( number2, number0 ) | #1: multiply ( #0, number4 ) |  EOS",
+      "hint": "The operator substract in #0 is incorrect.",
+      "wrong_instance": "step1: substract ( 8.0, 100.0 ) | step2: multiply ( step1, 5000.0 )",
+      "gpt_wrong": "{\n  \"analysis\": \"Step 1: Subtract the number of women who were married 3 or more times (8.0) from the total number of women in the random sampling (100.0). 100.0 - 8.0 = 92.0\\nStep 2: Multiply the result from step 1 by the number of women in the group (number4) to find out how many women in the group would likely be married 3 or more times. 92.0 * number4 = number6\\nSo, the final answer is number6.\"\n}"
+    },
+    {
+      "id": "8",
+      "question": "A study reported that in a random sampling of 100.0 women over the age of 35.0 , 8.0 of the women were married 2.0 or more times . Based on the study results , how many woman in a group of 5000.0 women over the age of 35.0 would likely be married 2.0 or more times ?",
+      "formula": "#0: divide ( number2, number0 ) | #1: multiply ( #0, number4 ) |  EOS",
+      "instance": "100.0 35.0 8.0 2.0 5000.0 35.0 2.0",
+      "answer_value": "400.0",
+      "right_instance": "step1: divide ( 8.0, 100.0 ) | step2: multiply ( step1, 5000.0 )",
+      "gpt_right": "{\n  \"analysis\": \"Step 1: Divide the number of women who were married 3 or more times (8.0) by the total number of women in the random sampling (100.0). This will give you the proportion of women who were married 3 or more times in the sample. 8.0 / 100.0 = 0.08\\nStep 2: Multiply the proportion obtained in step 1 by the number of women in the group (number4) to estimate the number of women who would likely be married 3 or more times. 0.08 * number4\\nSo, the final answer is 0.08 * number4.\"\n}"
+    }
+  ],
+  "123": [
+    {
+      "id": "9",
+      "question": "A study reported that in a random sampling of 100.0 women over the age of 35.0 , 8.0 of the women were married 2.0 or more times . Based on the study results , how many woman in a group of 5000.0 women over the age of 35.0 would likely be married 2.0 or more times ?",
+      "formula": "#0: divide ( number2, number0 ) | #1: multiply ( #0, number4 ) |  EOS",
+      "instance": "100.0 35.0 8.0 2.0 5000.0 35.0 2.0",
+      "answer_value": "400.0",
+      "wrong_formula": "#0: divide ( number2, number0 ) | #1: substract ( #0, number4 ) |  EOS",
+      "hint": "The operator substract in #1 is incorrect.",
+      "wrong_instance": "step1: divide ( 8.0, 100.0 ) | step2: substract ( step1, 5000.0 )",
+      "gpt_wrong": "{\n  \"analysis\": \"Step 1: Divide the number of women who were married 3 or more times (8.0) by the total number of women in the random sampling (100.0). This will give us the proportion of women who were married 3 or more times in the sample. 8.0 / 100.0 = 0.08\\nStep 2: Subtract the proportion obtained in step 1 from the total number of women in the group (number4). This will give us an estimate of how many women in the group would likely be married 3 or more times. number4 - 0.08 = number6\\nSo, the final answer is number6.\"\n}"
+    },
+    {
+      "id": "8",
+      "question": "A study reported that in a random sampling of 100.0 women over the age of 35.0 , 8.0 of the women were married 2.0 or more times . Based on the study results , how many woman in a group of 5000.0 women over the age of 35.0 would likely be married 2.0 or more times ?",
+      "formula": "#0: divide ( number2, number0 ) | #1: multiply ( #0, number4 ) |  EOS",
+      "instance": "100.0 35.0 8.0 2.0 5000.0 35.0 2.0",
+      "answer_value": "400.0",
+      "wrong_formula": "#0: substract ( number2, number0 ) | #1: multiply ( #0, number4 ) |  EOS",
+      "hint": "The operator substract in #0 is incorrect.",
+      "wrong_instance": "step1: substract ( 8.0, 100.0 ) | step2: multiply ( step1, 5000.0 )",
+      "gpt_wrong": "{\n  \"analysis\": \"Step 1: Subtract the number of women who were married 3 or more times (8.0) from the total number of women in the random sampling (100.0). 100.0 - 8.0 = 92.0\\nStep 2: Multiply the result from step 1 by the number of women in the group (number4) to find out how many women in the group would likely be married 3 or more times. 92.0 * number4 = number6\\nSo, the final answer is number6.\"\n}"
+    },
+    {
+      "id": "8",
+      "question": "A study reported that in a random sampling of 100.0 women over the age of 35.0 , 8.0 of the women were married 2.0 or more times . Based on the study results , how many woman in a group of 5000.0 women over the age of 35.0 would likely be married 2.0 or more times ?",
+      "formula": "#0: divide ( number2, number0 ) | #1: multiply ( #0, number4 ) |  EOS",
+      "instance": "100.0 35.0 8.0 2.0 5000.0 35.0 2.0",
+      "answer_value": "400.0",
+      "right_instance": "step1: divide ( 8.0, 100.0 ) | step2: multiply ( step1, 5000.0 )",
+      "gpt_right": "{\n  \"analysis\": \"Step 1: Divide the number of women who were married 3 or more times (8.0) by the total number of women in the random sampling (100.0). This will give you the proportion of women who were married 3 or more times in the sample. 8.0 / 100.0 = 0.08\\nStep 2: Multiply the proportion obtained in step 1 by the number of women in the group (number4) to estimate the number of women who would likely be married 3 or more times. 0.08 * number4\\nSo, the final answer is 0.08 * number4.\"\n}"
+    }
+  ]
+}
